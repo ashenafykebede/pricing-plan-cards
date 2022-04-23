@@ -5,7 +5,6 @@ const plandetails2 = ['One Device','Unlimited Download','300+ icon Package','Ful
 const plandetails3 = ['12 Devices','Unlimited Download','3000+ icon Package','Fully Editables Files','2TB Storage','5TB Data Transfer'];
 
 export const Container = () => {
-  console.log("from container",plandetails1);
   return (
     <div className="container">
       <Card cls="card-1" plan="Free"        forr="For Individual"    price="80"  btn="submit2"  plandetails={plandetails2}/>
